@@ -49,7 +49,7 @@
             ]"
           >
             <nuxt-link :to="{ name: 'todo' }" class="nav-link" href="#"
-              >Todos</nuxt-link
+              >Todos <span class="badge badge-warning">{{this.$store.state.todos.list.length}}</span></nuxt-link
             >
           </li>
           <li
